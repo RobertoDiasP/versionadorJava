@@ -1,14 +1,8 @@
 package versionamento;
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
 import java.io.File;
-import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 
 public class JanelaSecundaria extends JFrame {
     private JTextField campoVersao, nome, arquivoOrigem, diretorioDestino;
