@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>versionamento</groupId>
+  <artifactId>versionamento</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <!-- Dependência do Apache Commons Compress -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-compress</artifactId>
+      <version>1.21</version> <!-- Versão mais recente disponível -->
+    </dependency>
+    <dependency>
+   		<groupId>commons-io</groupId>
+    	<artifactId>commons-io</artifactId>
+    	<version>2.11.0</version> <!-- Verifique a versão mais recente no site -->
+	</dependency>
+	<dependency>
+        <groupId>org.firebirdsql.jdbc</groupId>
+        <artifactId>jaybird</artifactId>
+        <version>4.0.7.java8</version> <!-- Use a versão mais recente -->
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+          <release>21</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
